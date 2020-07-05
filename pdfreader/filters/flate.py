@@ -17,7 +17,8 @@ def decode(data, params):
     b''
     """
     try:
-        data = zlib.decompress(data)
+        zobj = zlib.decompressobj()
+        data = zobj.decompress(data)
         data = _remove_predictors(data, params.get("Predictor"), params.get("Columns"))
     except zlib.error:
         logging.exception("Skipping broken stream")
