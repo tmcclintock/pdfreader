@@ -90,3 +90,7 @@ If this project is helpful, you can treat me to coffee :-)
 
 .. image:: https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif
    :target: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VMVFZSDHDFVK6&item_name=PDFReader+support&currency_code=USD&source=url
+
+Note:
+=====
+This branch got a bug fix to address `this issue <https://stackoverflow.com/questions/32367005/zlib-error-error-5-while-decompressing-data-incomplete-or-truncated-stream-in>`_.
